@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/fatma/ontologies/2017/10/untitled-ontology-28"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/fatma/ontologies/2017/10/untitled-ontology-28">
+    <Prefix name="" IRI="http://www.semanticweb.org/fatma/ontologies/2017/10/untitled-ontology-28"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <DataProperty IRI="#batteryLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateOfBirth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#understanding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indoor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLearningTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearningStyle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#knowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wi-Fi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#doActivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLearningStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecializationDomain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Botany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outdoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Battery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MobileData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discover"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProcessor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#firstName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Processor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KnowledgeLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scientist"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOwner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plan"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lastName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBattery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Display"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpertiseLevel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#LocatedAt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connectedTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDisplay"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDevice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ecology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entomology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mycology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preserve"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMemory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasKnowledgeLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tablet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnderstandingLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearningTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Integrate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laptop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Auditory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Describe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Memory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmartPhone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#specializedIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Read/Write"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#expertise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kinesthetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analyze"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUnderstandingLevel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExpertiseLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SDMActivity"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Analyze"/>
+        <Class IRI="#SDMActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assure"/>
+        <Class IRI="#SDMActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Auditory"/>
+        <Class IRI="#LearningStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Botany"/>
+        <Class IRI="#SpecializationDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collect"/>
+        <Class IRI="#SDMActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Describe"/>
+        <Class IRI="#SDMActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Discover"/>
+        <Class IRI="#SDMActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ecology"/>
+        <Class IRI="#SpecializationDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entomology"/>
+        <Class IRI="#SpecializationDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indoor"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Integrate"/>
+        <Class IRI="#SDMActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kinesthetic"/>
+        <Class IRI="#LearningStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laptop"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MobileData"/>
+        <Class IRI="#Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mycology"/>
+        <Class IRI="#SpecializationDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outdoor"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PC"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plan"/>
+        <Class IRI="#SDMActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preserve"/>
+        <Class IRI="#SDMActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scientist"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmartPhone"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tablet"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visual"/>
+        <Class IRI="#LearningStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wi-Fi"/>
+        <Class IRI="#Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoology"/>
+        <Class IRI="#SpecializationDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Read/Write"/>
+        <Class IRI="#LearningStyle"/>
+    </SubClassOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasDevice"/>
+        <ObjectProperty IRI="#hasOwner"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#connectedTo"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#doActivity"/>
+        <Class IRI="#Scientist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBattery"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDevice"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDisplay"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExpertiseLevel"/>
+        <Class IRI="#Scientist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasKnowledgeLevel"/>
+        <Class IRI="#Scientist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLearningStyle"/>
+        <Class IRI="#Scientist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLearningTime"/>
+        <Class IRI="#Scientist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMemory"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOwner"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProcessor"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUnderstandingLevel"/>
+        <Class IRI="#Scientist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#specializedIn"/>
+        <Class IRI="#Scientist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LocatedAt"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#connectedTo"/>
+        <Class IRI="#Network"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#doActivity"/>
+        <Class IRI="#SDMActivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBattery"/>
+        <Class IRI="#Battery"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDevice"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDisplay"/>
+        <Class IRI="#Display"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasExpertiseLevel"/>
+        <Class IRI="#ExpertiseLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasKnowledgeLevel"/>
+        <Class IRI="#KnowledgeLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLearningStyle"/>
+        <Class IRI="#LearningStyle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLearningTime"/>
+        <Class IRI="#LearningTime"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMemory"/>
+        <Class IRI="#Memory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOwner"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProcessor"/>
+        <Class IRI="#Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUnderstandingLevel"/>
+        <Class IRI="#UnderstandingLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#specializedIn"/>
+        <Class IRI="#SpecializationDomain"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#batteryLevel"/>
+        <Class IRI="#Battery"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateOfBirth"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#expertise"/>
+        <Class IRI="#ExpertiseLevel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#firstName"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#knowledge"/>
+        <Class IRI="#KnowledgeLevel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lastName"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#understanding"/>
+        <Class IRI="#UnderstandingLevel"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#batteryLevel"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:double"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">100.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateOfBirth"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#expertise"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Beginner</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Expert</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Practitioner</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#firstName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#knowledge"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hi</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Low</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Medium</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lastName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#understanding"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Not Understood</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Understood Little</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Understood Well</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
